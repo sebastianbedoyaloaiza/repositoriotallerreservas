@@ -1,5 +1,17 @@
-# Vue 3 + Vite
+# Proyecto reservas institucionales
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Descripción el proyecto
+Para la creación de este proyecto usé vite+vue, usando el comando npm créate vite@latest, su funcionalidad es para que los usuarios puedan ver y reservar espacios institucionales.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+##Tecnologías utilizadas
+Se ha usado toastify para mostrar los mensajes de cancelación, confirmación o imposibilidad de reservar
+Se ha usado tailwind para tener hacer más fácil la creación de estilos a lo largo del código para un frontend visualmente atractivo
+Se ha usado vitest para las pruebas unitarias
+
+##Instalación
+Debe asegurarse de tener exactamente el mismo package.json y package-lock.json que está en este proyecto, posteriormente debe ejecutar dentro de la carpeta npm install -D vitest, npm install tailwindcss @tailwindcss/vite y npm install vue3-toastify
+
+Ahora proceda a instalar npm con install y posteriormente puede ejecutar npm run dev
+
+##Autor
+Sebastián Bedoya Loaiza
